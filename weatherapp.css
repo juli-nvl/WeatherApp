@@ -42,13 +42,13 @@ header {
   display: flex;
   padding: 20px 0;
 }
-.data-now-emoji {
+.now-emoji {
   font-size: 45px;
 }
-.data-now-temperature {
+.now-temperature {
   font-size: 70px;
 }
-.data-now-unit {
+.now-unit {
   font-size: 30px;
 }
 h1 {

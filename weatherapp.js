@@ -1,6 +1,12 @@
 function refreshData(response) {
-  let temperature = document.querySelector("#data-now-temperature");
+  let temperature = document.querySelector("#now-temperature");
   temperature.innerHTML = Math.round(response.data.temperature.current);
+  let condition = document.querySelector("#now-condition");
+  condition.innerHTML = response.data.condition.description;
+  let humidity = document.querySelector("#now-humidity");
+  humidity.innerHTML = response.data.temperature.humidity;
+  let windspeed = document.querySelector("#now-windspeed");
+  windspeed.innerHTML = response.data.wind.speed;
 }
 
 function searchCity(city) {
