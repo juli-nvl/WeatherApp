@@ -20,4 +20,4 @@ function submitCity(event) {
 let searchElement = document.querySelector("#search-element");
 searchElement.addEventListener("submit", submitCity);
 
-searchCity("Paris");
+searchCity("Berlin");
