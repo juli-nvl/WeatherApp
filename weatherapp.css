@@ -18,15 +18,17 @@ footer {
 .search-input {
   background-color: #e7f0dc;
   font-family: "Lexend", serif;
+  border: none;
   border-radius: 5px;
-  width: 620px;
+  width: 75%;
   padding: 12px;
 }
 
 .search-button {
   background-color: #819175;
   font-family: "Lexend", serif;
+  border: none;
   border-radius: 5px;
-  width: 75px;
+  width: 24%;
   padding: 12px;
 }
