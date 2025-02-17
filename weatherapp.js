@@ -1,6 +1,8 @@
 function refreshData(response) {
   let temperature = document.querySelector("#now-temperature");
   temperature.innerHTML = Math.round(response.data.temperature.current);
+  let icon = document.querySelector("#now-icon");
+  icon.innerHTML = `<img src="${response.data.condition.icon_url}" alt="weather-icon"></img>`;
   let date = new Date(response.data.time * 1000);
   let time = document.querySelector("#time");
   time.innerHTML = formatDate(date);

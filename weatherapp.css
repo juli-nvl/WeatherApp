@@ -42,8 +42,10 @@ header {
   display: flex;
   padding: 20px 0;
 }
-.now-emoji {
-  font-size: 45px;
+.now-icon {
+  height: 75px;
+  width: 75px;
+  padding: 0 20px 0 0;
 }
 .now-temperature {
   font-size: 70px;
