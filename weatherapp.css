@@ -6,13 +6,27 @@ footer {
   text-align: center;
   font-family: monospace;
 }
+
 .weather-app {
   background-color: white;
-  max-width: 750px;
+  max-width: 700px;
   margin: 30px auto;
   padding: 20px;
+  border-radius: 10px;
+}
+
+.search-input {
+  background-color: #e7f0dc;
+  font-family: "Lexend", serif;
+  border-radius: 5px;
+  width: 620px;
+  padding: 12px;
 }
 
 .search-button {
-  background-color: #597445;
+  background-color: #819175;
+  font-family: "Lexend", serif;
+  border-radius: 5px;
+  width: 75px;
+  padding: 12px;
 }
