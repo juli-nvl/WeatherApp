@@ -15,14 +15,20 @@
   <body>
     <div class="weather-app">
       <header>
-        <form>
+        <form id="search-element">
           <input
             type="search"
             placeholder="Enter a city..."
             required
             class="search-input"
+            id="search-input"
           />
-          <input type="submit" value="search" class="search-button" />
+          <input
+            type="submit"
+            value="search"
+            class="search-button"
+            id="search-button"
+          />
         </form>
       </header>
       <main>
@@ -33,7 +39,7 @@
             <div class="data-now-unit">°C</div>
           </div>
           <div class="data-now-right">
-            <h1>City</h1>
+            <h1 id="city">City</h1>
             <p>
               Monday 00:00, weather condition, <br />
               humidity 0%, windspeed: 0 km/h
@@ -50,5 +56,6 @@
       open-sourced on
       <a href="https://github.com/juli-nvl/WeatherApp">Github</a>.
     </footer>
+    <script src="weatherapp.js"></script>
   </body>
 </html>
