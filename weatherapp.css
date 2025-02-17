@@ -2,17 +2,16 @@ body {
   background-color: #e7f0dc;
   font-family: "Lexend", serif;
 }
-footer {
-  text-align: center;
-  font-family: monospace;
-}
 
 .weather-app {
   background-color: white;
-  max-width: 700px;
+  max-width: 600px;
   margin: 30px auto;
   padding: 20px;
   border-radius: 10px;
+}
+header {
+  padding-bottom: 25px;
 }
 
 .search-input {
@@ -26,9 +25,34 @@ footer {
 
 .search-button {
   background-color: #819175;
+  color: white;
   font-family: "Lexend", serif;
   border: none;
   border-radius: 5px;
   width: 24%;
   padding: 12px;
+}
+
+.data-now {
+  display: flex;
+  justify-content: space-between;
+}
+
+.data-now-left {
+  padding: 20px 0;
+  font-size: 60px;
+}
+h1 {
+  font-size: 40px;
+}
+p {
+  font-size: 15px;
+}
+.data-now-right {
+  text-align: right;
+}
+
+footer {
+  text-align: center;
+  font-family: monospace;
 }
