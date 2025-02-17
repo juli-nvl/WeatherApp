@@ -39,8 +39,17 @@ header {
 }
 
 .data-now-left {
+  display: flex;
   padding: 20px 0;
-  font-size: 60px;
+}
+.data-now-emoji {
+  font-size: 45px;
+}
+.data-now-temperature {
+  font-size: 70px;
+}
+.data-now-unit {
+  font-size: 30px;
 }
 h1 {
   font-size: 40px;
