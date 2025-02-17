@@ -1,0 +1,18 @@
+body {
+  background-color: #e7f0dc;
+  font-family: "Lexend", serif;
+}
+footer {
+  text-align: center;
+  font-family: monospace;
+}
+.weather-app {
+  background-color: white;
+  max-width: 750px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.search-button {
+  background-color: #597445;
+}
