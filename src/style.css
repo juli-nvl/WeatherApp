@@ -82,6 +82,7 @@ p {
 }
 .forecast-temperature-min {
   color: #97a88a;
+  padding-left: 7px;
 }
 footer {
   text-align: center;
